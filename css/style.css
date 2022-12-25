@@ -256,3 +256,56 @@ header hr {
 	bottom: 10px;
 	left: 10px;
 }
+
+.cards-row3 {
+	margin-top: 110px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.card7 {
+	position: relative;
+}
+
+.card8 {
+	position: relative;
+}
+
+.card9 {
+	position: relative;
+}
+
+.card7 img {
+	clip-path: inset(0 24% 0 24% round 20px);
+	width: 213%;
+	margin-left: -174px;
+}
+
+.card8 img {
+	clip-path: inset(0 7% 0 7% round 20px);
+	width: 139%;
+	margin-left: 35px;
+	margin-top: 30px;
+}
+
+.card9 img {
+	clip-path: inset(0 12% 0 36% round 20px);
+	width: 135%;
+	margin-left: -95px;
+	margin-top: 60px;
+}
+
+.card7-details {
+	bottom: -2px;
+	left: 28px;
+}
+
+.card8-details {
+	bottom: -45px;
+	left: 94px;
+}
+
+.card9-details {
+	bottom: -50px;
+	left: 174px;
+}
