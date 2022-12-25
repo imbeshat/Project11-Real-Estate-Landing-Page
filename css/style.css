@@ -140,21 +140,20 @@ header hr {
 	clip-path: inset(0% 24% 0% 24% round 20px);
 	width: 240%;
 	margin-left: -168px;
-	/* position: relative; */
 }
+
 .card2 img {
 	clip-path: inset(0 35% 0 5% round 20px);
 	width: 160%;
 	margin-left: 67px;
 	margin-top: 30px;
-	/* position: relative; */
 }
+
 .card3 img {
 	clip-path: inset(0 24% 0 24% round 20px);
 	width: 150%;
 	margin-left: -65px;
 	margin-top: 60px;
-	/* position: relative; */
 }
 
 .card-details {
@@ -203,4 +202,57 @@ header hr {
 	border-radius: 30px;
 	font-size: 15px;
 	font-weight: 500;
+}
+
+.cards-row2 {
+	margin-top: 110px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.card4 {
+	position: relative;
+}
+
+.card5 {
+	position: relative;
+}
+
+.card6 {
+	position: relative;
+}
+
+.card4 img {
+	clip-path: inset(0% 24% 0% 24% round 20px);
+	width: 188%;
+	margin-left: -168px;
+	margin-top: 60px;
+}
+
+.card5 img {
+	clip-path: inset(0% 24% 0% 24% round 20px);
+	width: 165%;
+	margin-left: -151px;
+	margin-top: 30px;
+}
+
+.card6 img {
+	clip-path: inset(0 24% 0 24% round 20px);
+	width: 202%;
+	margin-left: -186px;
+}
+
+.card4-details {
+	bottom: -50px;
+	left: 26px;
+}
+
+.card5-details {
+	bottom: -20px;
+	left: 51px;
+}
+
+.card6-details {
+	bottom: 10px;
+	left: 10px;
 }
