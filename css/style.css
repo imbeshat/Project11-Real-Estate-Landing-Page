@@ -368,7 +368,7 @@ header hr {
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
-	padding: 200px 0 100px 145px;
+	padding: 200px 0 0 145px;
 }
 
 .early-bird-bg2 {
@@ -381,4 +381,71 @@ header hr {
 	width: 100%;
 	bottom: 137px;
 	right: 53px;
+}
+
+/* CSS for newsletter section */
+.newsletter {
+	color: #fff;
+	background-color: #f6f8fa;
+	padding: 50px 0;
+}
+
+.subscribe {
+	background-color: #6663e9;
+	margin: 0 80px 0 80px;
+	text-align: center;
+	padding: 100px 0;
+	border-radius: 60px;
+}
+
+.subscribe h1 {
+	font-size: 60px;
+}
+
+.subscribe p {
+	color: #c4c3f6;
+	font-size: 18px;
+	margin: 30px 0 40px 0;
+	font-weight: 600;
+}
+
+.input-button {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	gap: 30px;
+	margin-top: 60px;
+}
+
+.input-email {
+	position: relative;
+}
+
+.input-email img {
+	position: absolute;
+	top: 15px;
+	left: 30px;
+}
+
+.subscribe input {
+	background-color: #5654d1;
+	padding: 20px 220px 20px 75px;
+	border: none;
+	border-radius: 30px;
+	font-size: 16px;
+}
+
+::placeholder {
+	color: #8f8ee0;
+}
+
+.btn-subscribe {
+	color: #6f6dea;
+	font-size: 18px;
+	font-weight: 600;
+	padding: 20px 40px;
+	background-color: #fff;
+	border: none;
+	border-radius: 30px;
 }
