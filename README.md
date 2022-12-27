@@ -1,5 +1,5 @@
 # Project11-Real-Estate-Landing-Page
-## A Real Estate landing web page for downloading different type of games created using Html and CSS.
+## A Real Estate Landing web page for checking out different properties created using Html and CSS.
 
 ### Link: https://real-estate-page-landing.netlify.app/
 
